@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.Nav li {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border: 1px whitesmoke;
+	color: whitesmoke;
+}
+
+.Nav ul {
+	text-align: right;
+	background-color: gray;
+}
+
+.Nav a {
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 20px 20px;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.Nav a:hover {
+	background: none;
+	color: #FFD700;
+}
+
+.Nav img {
+	margin: auto;
+	width: 8vw;
+	height: 8vh;
+	float: left;
+}
+
+.dropdown-menu {
+	display: none;
+
+}
+
+.Nav ul li:hover .dropdown-menu {
+	display: inline-block;
+	cursor: pointer;
+	position: absolute;
+	margin-top: 28px;
+	margin-left: -125px;
+}
+
+.Nav ul li:hover .dropdown-menu ul li {
+	display: block;
+	width: 85px;
+}
+
+.dropdown-menu a:hover {
+	color: black;
+	background: yellow;
+	padding: 12px 42px;
+	margin-left: -20px;
+
+
+}
+
+.carousel-control-prev {
+	position: absolute;
+	float-left: -200px;
+}
+
+.padding img {
+	padding: 5px;
+
+}
+
+.padding {
+	padding: 10px;
+}
+
+.padding img:hover {
+	transform: scale(1.2, 1.2);
+	transition: 1s;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.Nav li {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	color: whitesmoke;
+}
+
+.Nav ul {
+	text-align: right;
+	background-color: rgb(156, 155, 155);
+}
+
+.Nav a {
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.Nav a:hover {
+	background: none;
+	color: black;
+}
+
+.Nav img {
+	width: 8%;
+	height: auto;
+	float: left;
+	margin: 0.4% 5%;
+}
+
+.dropdown-menu {
+	display: none;
+	width: 200px;
+}
+
+.dropdown-menu li {
+	height: 4vh;
+}
+
+.Nav ul li:hover .dropdown-menu {
+	display: inline-block;
+	cursor: pointer;
+	position: absolute;
+	margin-top: 44px;
+
+}
+
+/*.Nav ul li:hover .dropdown-menu ul li{
+		display: block;
+		width: 5px;
+	}*/
+
+.dropdown-menu a:hover {
+	color: whitesmoke;
+	background: black;
+	width: 200px;
+
+}
+
+
+.padding img {
+	padding: 10px;
+
+}
+
+.padding {
+	padding: 10px;
+}
+
+.padding img:hover {
+	transform: scale(1.2, 1.2);
+	transition: 1s;
+}
+
+#carouselExampleIndicators {
+	margin-top: -16px;
+}
+
+.carousel-control-prev-icon {
+	margin-left: -220px;
+	border: 1px solid;
+}
+
+.carousel-control-next-icon {
+	margin-right: -220px;
+	border: 1px solid;
+}
+
+#menu {
+	width: 2%;
+	height: auto;
+	float: left;
+	margin: 0.8% 1%;
+	float: right;
+	display: none;
+}
+
+
+@media only screen and (max-width: 400px) {
+	.Nav {
+		display: block;
+		height: 70px;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	.Nav li {
+		margin: 20px;
+	}
+
+	.Nav ul {
+		text-align: right;
+	}
+
+	.Nav ul a {
+		display: none;
+	}
+
+	.Nav img {
+		width: 80px;
+		height: 40px;
+		float: left;
+		margin-left: -15px;
+		margin-top: 5px;
+		padding: 0px;
+	}
+
+	#menu {
+		display: block;
+		margin-top: -140px;
+		margin-right: 25px;
+		height: 25px;
+		width: 25px;
+
+	}
+
+	#about {
+		margin-top: -15px;
+	}
+}
