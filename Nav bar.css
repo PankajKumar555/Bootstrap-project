@@ -5,15 +5,16 @@
 
 .Nav li {
 	display: inline-block;
-	margin: 10px;
-	padding: 10px;
+	margin: 10px 0px;
+	padding: 10px 0px;
 	border: 1px whitesmoke;
 	color: whitesmoke;
 }
 
 .Nav ul {
 	text-align: right;
-	background-color: gray;
+	background-color: rgb(15 135 166);
+	margin: 0px;
 }
 
 .Nav a {
@@ -22,7 +23,7 @@
 	padding: 20px 20px;
 	font-family: Arial;
 	font-weight: bold;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-size: 15px;
 }
 
@@ -32,9 +33,9 @@
 }
 
 .Nav img {
-	margin: auto;
-	width: 8vw;
-	height: 8vh;
+	margin: 15px;
+	width: 100px;
+	height: auto;
 	float: left;
 }
 
@@ -53,7 +54,7 @@
 
 .Nav ul li:hover .dropdown-menu ul li {
 	display: block;
-	width: 85px;
+	width: 50px;
 }
 
 .dropdown-menu a:hover {
@@ -85,24 +86,24 @@
 
 }
 
-* {
+/* * {
 	margin: 0;
 	padding: 0;
-}
+} */
 
-.Nav li {
+/* .Nav li {
 	display: inline-block;
 	margin: 10px;
 	padding: 10px;
 	color: whitesmoke;
-}
+} */
 
-.Nav ul {
+/* .Nav ul {
 	text-align: right;
 	background-color: rgb(156, 155, 155);
-}
+} */
 
-.Nav a {
+/* .Nav a {
 	text-decoration: none;
 	color: whitesmoke;
 	padding: 20px;
@@ -110,19 +111,19 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 15px;
-}
+} */
 
-.Nav a:hover {
+/* .Nav a:hover {
 	background: none;
 	color: black;
-}
+} */
 
-.Nav img {
+/* .Nav img {
 	width: 8%;
 	height: auto;
 	float: left;
 	margin: 0.4% 5%;
-}
+} */
 
 .dropdown-menu {
 	display: none;
@@ -173,12 +174,10 @@
 }
 
 .carousel-control-prev-icon {
-	margin-left: -220px;
 	border: 1px solid;
 }
 
 .carousel-control-next-icon {
-	margin-right: -220px;
 	border: 1px solid;
 }
 
@@ -193,46 +192,44 @@
 
 
 @media only screen and (max-width: 400px) {
-	.Nav {
-		display: block;
-		height: 70px;
+	.Nav img {
+		margin: 10px;
+		width: 80px;
+		height: auto;
 	}
-
-	#menu {
-		display: none;
-	}
-
-	.Nav li {
-		margin: 20px;
-	}
-
-	.Nav ul {
-		text-align: right;
-	}
-
 	.Nav ul a {
 		display: none;
 	}
-
-	.Nav img {
-		width: 80px;
-		height: 40px;
-		float: left;
-		margin-left: -15px;
-		margin-top: 5px;
-		padding: 0px;
-	}
-
 	#menu {
 		display: block;
-		margin-top: -140px;
+		margin-top: -35px;
 		margin-right: 25px;
-		height: 25px;
-		width: 25px;
-
+		height: auto;
+		width: 18px;
 	}
+	/* .carousel-slide{
+		height: 10px;
+	} */
 
 	#about {
 		margin-top: -15px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.Nav img {
+		margin: 10px;
+		width: 80px;
+		height: auto;
+	}
+	.Nav ul a {
+		display: none;
+	}
+	#menu {
+		display: block;
+		margin-top: -35px;
+		margin-right: 25px;
+		height: auto;
+		width: 18px;
 	}
 }
